@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/light_brown">
+
+
+    <Button
+        android:id="@+id/content_main"
+
+
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="fun"
+        android:text="HOME"
+        android:textColor="#123456"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toEndOf="@+id/content_main"
+        android:textSize="13sp"
+        android:onClick="fun2"
+        android:text="ALERTS"
+        android:textColor="#123453"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button2"
+        android:onClick="fun3"
+        android:text="ACADEMICS"
+        android:textColor="#123453"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button3"
+        android:onClick="fun4"
+        android:text="CONTACT"
+        android:textColor="#123453"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/classy"
+        android:visibility="visible">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    app:srcCompat="@drawable/college" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:text="Looking back to the eventful history of the Cochin University College of Engineering Kuttanad (CUCEK), Pulincunnu would invoke a mixed feeling in the mind of a CUCEK lover. The only one of its kind in the locality around, it has the capacity to grow beyond a mere Engineering College or a University Department. Offering four engineering under-graduate courses, it has been initiated under the aegis of the CUSAT on 21st October 1999 as a University own department outside its main campus, in the picturesque piece of land in Pulincunnu, Alappuzha district. Being formally inaugurated on 25th of October 1999 in the presence of Syndicate members including Dr. K C Joseph, the then MLA of Kuttanad and the visionary behind it and Sri. James K. J., the Special Officer of CUCEK, the College began its academic activities in rented buildings which belonged to the St. Mary’s ITC, Pulincunnu and the St.Joseph’s HSS, Pulincunnu. There were 192 students in four B.Tech branches, Computer Science and Engineering, Electronics and Communication Engineering, Information Technology and Mechanical Engineering in the first batch (1999-2003). The faculty members were deputed from the Centre for Undergraduate Studies in Engineering (now, the School of Engineering), CUSAT and recruited on contract basis. The experience and guidance from many of the senior faculty members benefitted the student and junior faculty community of the College. The University procured nearly 40 acres of land in Pulincunnu and constructed semi-permanent buildings for the conduct of classes and administration by 2000-2001. The College was shifted to own place by the academic year 2002-2003. Initiatives to construct a permanent building became fruitful when the first five storied building of Kuttanad having 4000 square metre habitable space was opened as the main building of CUCEK by the then Chief minister of Kerala, Sri. V S Achuthanandan, on 9th January 2010. A series of laboratory buildings, a library building and limited sporting facilities are housed by a mini-campus of CUCEK in nearly 3.5 acres apart from the main campus of academic and administrative infrastructure facilities.  "/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </FrameLayout>
+
+</RelativeLayout>

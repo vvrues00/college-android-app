@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classy"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.raat.rat.home">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/college" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:text="Looking back to the eventful history of the Cochin University College of Engineering Kuttanad (CUCEK), Pulincunnu would invoke a mixed feeling in the mind of a CUCEK lover. The only one of its kind in the locality around, it has the capacity to grow beyond a mere Engineering College or a University Department. Offering four engineering under-graduate courses, it has been initiated under the aegis of the CUSAT on 21st October 1999 as a University own department outside its main campus, in the picturesque piece of land in Pulincunnu, Alappuzha district. Being formally inaugurated on 25th of October 1999 in the presence of Syndicate members including Dr. K C Joseph, the then MLA of Kuttanad and the visionary behind it and Sri. James K. J., the Special Officer of CUCEK, the College began its academic activities in rented buildings which belonged to the St. Mary’s ITC, Pulincunnu and the St.Joseph’s HSS, Pulincunnu. There were 192 students in four B.Tech branches, Computer Science and Engineering, Electronics and Communication Engineering, Information Technology and Mechanical Engineering in the first batch (1999-2003). The faculty members were deputed from the Centre for Undergraduate Studies in Engineering (now, the School of Engineering), CUSAT and recruited on contract basis. The experience and guidance from many of the senior faculty members benefitted the student and junior faculty community of the College. The University procured nearly 40 acres of land in Pulincunnu and constructed semi-permanent buildings for the conduct of classes and administration by 2000-2001. The College was shifted to own place by the academic year 2002-2003. Initiatives to construct a permanent building became fruitful when the first five storied building of Kuttanad having 4000 square metre habitable space was opened as the main building of CUCEK by the then Chief minister of Kerala, Sri. V S Achuthanandan, on 9th January 2010. A series of laboratory buildings, a library building and limited sporting facilities are housed by a mini-campus of CUCEK in nearly 3.5 acres apart from the main campus of academic and administrative infrastructure facilities. "
+
+            />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
